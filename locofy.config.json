@@ -1,0 +1,35 @@
+{
+  "framework": "next",
+  "components": [
+    "./src/components/Header.tsx",
+    "./src/components/HeroSection.tsx",
+    "./src/components/CategorySection.tsx",
+    "./src/components/ProductCarousel.tsx",
+    "./src/components/SpotlightAndNews.tsx",
+    "./src/components/HowItWorks.tsx",
+    "./src/components/Testimonials.tsx",
+    "./src/components/CallToAction.tsx",
+    "./src/components/NewsletterSubscription.tsx",
+    "./src/components/Footer.tsx"
+  ],
+  "buttons": [
+    "./src/components/buttons/PrimaryButton.tsx",
+    "./src/components/buttons/SecondaryButton.tsx",
+    "./src/components/buttons/CategoryButton.tsx",
+    "./src/components/buttons/ProductButton.tsx",
+    "./src/components/buttons/SubscribeButton.tsx"
+  ],
+  "assets": [
+    "./public/assets/logo.png",
+    "./public/assets/hero-image.jpg",
+    "./public/assets/category-image1.jpg",
+    "./public/assets/category-image2.jpg",
+    "./public/assets/category-image3.jpg",
+    "./public/assets/product-image1.jpg",
+    "./public/assets/product-image2.jpg",
+    "./public/assets/product-image3.jpg",
+    "./public/assets/testimonial-avatar1.jpg",
+    "./public/assets/testimonial-avatar2.jpg",
+    "./public/assets/newsletter-background.jpg"
+  ]
+}

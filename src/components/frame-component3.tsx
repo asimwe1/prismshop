@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Image from "next/image"
 
 export type FrameComponent3Type = {
   className?: string;
@@ -61,7 +62,7 @@ const FrameComponent3: NextPage<FrameComponent3Type> = ({ className = "" }) => {
               </div>
               <div className="self-stretch flex flex-row items-start justify-start pt-[0rem] px-[0rem] pb-[0.312rem] box-border max-w-full text-[1rem] text-black">
                 <div className="flex-1 rounded-xl flex flex-row items-start justify-start pt-[0.875rem] px-[0.937rem] pb-[14rem] box-border bg-[url('/deal-name@3x.png')] bg-cover bg-no-repeat bg-[top] max-w-full z-[1]">
-                  <img
+                  <Image
                     className="h-[17.875rem] w-[24.625rem] relative rounded-xl object-cover hidden max-w-full"
                     alt=""
                     src="/image-1@2x.png"
@@ -76,17 +77,17 @@ const FrameComponent3: NextPage<FrameComponent3Type> = ({ className = "" }) => {
                 </div>
               </div>
               <div className="w-[23.875rem] flex flex-row items-start justify-start gap-[1.25rem] max-w-full mq450:flex-wrap">
-                <img
+                <Image
                   className="self-stretch flex-1 relative rounded-3xs max-w-full overflow-hidden max-h-full object-cover min-w-[5.313rem] min-h-[5.938rem] z-[1]"
                   alt=""
                   src="/image-2@2x.png"
                 />
-                <img
+                <Image
                   className="self-stretch flex-1 relative rounded-3xs max-w-full overflow-hidden max-h-full object-cover min-w-[5.313rem] min-h-[5.938rem] z-[1]"
                   alt=""
                   src="/image-2@2x.png"
                 />
-                <img
+                <Image
                   className="self-stretch flex-1 relative rounded-3xs max-w-full overflow-hidden max-h-full object-cover min-w-[5.313rem] min-h-[5.938rem] z-[1]"
                   alt=""
                   src="/image-2@2x.png"
@@ -100,13 +101,13 @@ const FrameComponent3: NextPage<FrameComponent3Type> = ({ className = "" }) => {
                   15,000+ New products added today
                 </div>
                 <div className="self-stretch flex flex-row items-start justify-start gap-[3rem] mq450:flex-wrap mq450:gap-[1.5rem]">
-                  <img
+                  <Image
                     className="self-stretch flex-1 relative rounded-3xs max-w-full overflow-hidden max-h-full object-cover min-w-[5.938rem] min-h-[7.688rem] z-[1]"
                     loading="lazy"
                     alt=""
                     src="/image-10@2x.png"
                   />
-                  <img
+                  <Image
                     className="self-stretch flex-1 relative rounded-3xs max-w-full overflow-hidden max-h-full object-cover min-w-[5.938rem] min-h-[7.688rem] z-[1]"
                     loading="lazy"
                     alt=""
@@ -114,13 +115,13 @@ const FrameComponent3: NextPage<FrameComponent3Type> = ({ className = "" }) => {
                   />
                 </div>
                 <div className="self-stretch flex flex-row items-start justify-start gap-[3rem] mq450:flex-wrap mq450:gap-[1.5rem]">
-                  <img
+                  <Image
                     className="self-stretch flex-1 relative rounded-3xs max-w-full overflow-hidden max-h-full object-cover min-w-[5.938rem] min-h-[7.688rem] z-[1]"
                     loading="lazy"
                     alt=""
                     src="/image-10@2x.png"
                   />
-                  <img
+                  <Image
                     className="self-stretch flex-1 relative rounded-3xs max-w-full overflow-hidden max-h-full object-cover min-w-[5.938rem] min-h-[7.688rem] z-[1]"
                     alt=""
                     src="/image-11@2x.png"
@@ -129,7 +130,7 @@ const FrameComponent3: NextPage<FrameComponent3Type> = ({ className = "" }) => {
               </div>
               <div className="self-stretch shadow-[0px_0px_10px_1px_#c5c6ff] rounded-xl bg-white flex flex-row items-start justify-start pt-[1.812rem] px-[1.5rem] pb-[1.75rem] box-border gap-[0.75rem] max-w-full text-[0.875rem] text-button-blue mq450:flex-wrap">
                 <div className="h-[9.688rem] w-[25.938rem] relative shadow-[0px_0px_10px_1px_#c5c6ff] rounded-xl bg-white hidden max-w-full" />
-                <img
+                <Image
                   className="h-[6.125rem] w-[6.75rem] relative rounded-3xs object-cover z-[1]"
                   alt=""
                   src="/image-9@2x.png"
@@ -151,7 +152,7 @@ const FrameComponent3: NextPage<FrameComponent3Type> = ({ className = "" }) => {
             <div className="flex-1 flex flex-col items-start justify-start gap-[1.812rem] min-w-[18.375rem] max-w-full text-[1.25rem] text-blue mq1300:flex-1">
               <div className="self-stretch shadow-[0px_0px_10px_1px_#c5c6ff] rounded-xl bg-white flex flex-row items-start justify-start pt-[1.312rem] px-[1.5rem] pb-[1.25rem] box-border gap-[1.562rem] max-w-full mq450:flex-wrap">
                 <div className="h-[9.688rem] w-[28.313rem] relative shadow-[0px_0px_10px_1px_#c5c6ff] rounded-xl bg-white hidden max-w-full" />
-                <img
+                <Image
                   className="h-[7.125rem] w-[7.563rem] relative rounded-3xs object-cover z-[1] mq450:flex-1"
                   alt=""
                   src="/image-12@2x.png"
@@ -168,7 +169,7 @@ const FrameComponent3: NextPage<FrameComponent3Type> = ({ className = "" }) => {
                   Best Deals
                 </div>
                 <div className="self-stretch flex flex-row items-start justify-start py-[0rem] pr-[0rem] pl-[0.125rem] box-border max-w-full">
-                  <img
+                  <Image
                     className="h-[17.25rem] flex-1 relative rounded-3xs max-w-full overflow-hidden object-cover z-[1]"
                     loading="lazy"
                     alt=""
@@ -180,7 +181,7 @@ const FrameComponent3: NextPage<FrameComponent3Type> = ({ className = "" }) => {
           </div>
         </div>
       </div>
-      <img
+      <Image
         className="h-[15.438rem] w-[25.256rem] absolute !m-[0] bottom-[-5rem] left-[24.688rem] object-contain z-[1]"
         loading="lazy"
         alt=""

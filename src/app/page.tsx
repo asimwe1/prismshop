@@ -8,6 +8,7 @@ import FrameComponent1 from "../components/frame-component1";
 import FrameComponent from "../components/frame-component";
 import Newsletter from "../components/newsletter";
 import Footer from "../components/footer";
+import Image from "next/image";
 
 const MacBookPro16: NextPage = () => {
   return (
@@ -39,7 +40,7 @@ const MacBookPro16: NextPage = () => {
               </p>
             </div>
             <button className="cursor-pointer [border:none] py-[1.25rem] px-[3.937rem] bg-button-blue rounded-31xl overflow-hidden flex flex-row items-end justify-start gap-[0.556rem] z-[1] hover:bg-steelblue-200">
-              <img
+              <Image
                 className="h-[1.094rem] w-[1.094rem] relative"
                 alt=""
                 src="/search-icon.svg"
@@ -55,10 +56,10 @@ const MacBookPro16: NextPage = () => {
       <FrameComponent3 />
       <FrameComponent2 />
       <FrameComponent1 />
-      <img
+      <Image
         className="w-full h-[48.875rem] absolute !m-[0] right-[0rem] bottom-[114.313rem] left-[0rem] max-w-full overflow-hidden shrink-0 object-cover"
         alt=""
-        src="/pexelscottonbro3944405-1@2x.png"
+        src="/pexelscottonbro3944405-1.png"
       />
       <FrameComponent />
       <Newsletter />

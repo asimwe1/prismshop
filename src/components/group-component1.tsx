@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Image from "next/image";
 
 export type GroupComponent1Type = {
   className?: string;
@@ -17,10 +18,10 @@ const GroupComponent1: NextPage<GroupComponent1Type> = ({ className = "" }) => {
           </b>
         </div>
         <div className="self-stretch flex flex-row items-start justify-start py-[0rem] pr-[0.562rem] pl-[0.5rem]">
-          <img
+          <Image
             className="h-[8.313rem] flex-1 relative max-w-full overflow-hidden object-cover z-[1]"
             alt=""
-            src="/mask-group@2x.png"
+            src="/mask-group.png"
           />
         </div>
         <div className="self-stretch flex flex-row items-start justify-start py-[0rem] pr-[0rem] pl-[0.062rem] text-salmon-100">
@@ -29,7 +30,7 @@ const GroupComponent1: NextPage<GroupComponent1Type> = ({ className = "" }) => {
               30$
             </b>
             <div className="flex flex-col items-start justify-start pt-[0.312rem] px-[0rem] pb-[0rem]">
-              <img
+              <Image
                 className="w-[1.5rem] h-[1.5rem] relative overflow-hidden shrink-0 z-[1]"
                 alt=""
                 src="/add-shopping-cart.svg"

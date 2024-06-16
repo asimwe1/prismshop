@@ -18,6 +18,8 @@ const FrameComponent2: NextPage<FrameComponent2Type> = ({ className = "" }) => {
                 <div className="h-[15.125rem] flex-1 relative">
                   <div className="absolute top-[0rem] left-[0rem] shadow-[0px_0px_30px_rgba(69,_71,_160,_0.25)] rounded-[50%] bg-white w-full h-full" />
                   <Image
+                  width={65}
+                  height={70}
                     className="absolute top-[1rem] left-[1rem] w-[13.15rem] h-[13.15rem] object-contain z-[2]"
                     alt=""
                     src="/image-14@2x.png"
@@ -49,6 +51,8 @@ const FrameComponent2: NextPage<FrameComponent2Type> = ({ className = "" }) => {
                 <div className="h-[15.125rem] flex-1 relative">
                   <div className="absolute top-[0rem] left-[0rem] shadow-[0px_0px_30px_rgba(69,_71,_160,_0.25)] rounded-[50%] bg-white w-full h-full" />
                   <Image
+                  width={65}
+                  height={70}
                     className="absolute top-[4.438rem] left-[4.438rem] w-[6.25rem] h-[6.25rem] object-cover z-[1]"
                     alt=""
                     src="/image-15@2x.png"
@@ -66,6 +70,8 @@ const FrameComponent2: NextPage<FrameComponent2Type> = ({ className = "" }) => {
                     Take your time and choose the right product for you.
                   </div>
                   <Image
+                  width={65}
+                  height={70}
                     className="h-[15.438rem] w-[25.256rem] absolute !m-[0] right-[-20.069rem] bottom-[-11.887rem] object-contain z-[1]"
                     loading="lazy"
                     alt=""
@@ -82,16 +88,22 @@ const FrameComponent2: NextPage<FrameComponent2Type> = ({ className = "" }) => {
               <div className="h-[15.125rem] flex-1 relative">
                 <div className="absolute top-[0rem] left-[0rem] shadow-[0px_0px_30px_rgba(69,_71,_160,_0.25)] rounded-[50%] bg-white w-full h-full" />
                 <Image
+                width={65}
+                height={70}
                   className="absolute top-[4.438rem] left-[4.438rem] w-[6.25rem] h-[6.25rem] object-cover z-[1]"
                   alt=""
                   src="/check-1@2x.png"
                 />
                 <Image
+                width={65}
+                height={70}
                   className="absolute top-[2.5rem] left-[3.625rem] rounded-12xs w-[2.394rem] h-[2.394rem] object-contain z-[2]"
                   alt=""
                   src="/star-1.svg"
                 />
                 <Image
+                width={65}
+                height={70}
                   className="absolute top-[9.188rem] left-[10.819rem] rounded-12xs w-[1.756rem] h-[1.756rem] object-contain z-[1]"
                   alt=""
                   src="/star-2.svg"

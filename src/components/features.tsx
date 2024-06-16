@@ -16,6 +16,8 @@ const Features: NextPage<FeaturesType> = ({ className = "" }) => {
       <div className="w-[107.688rem] flex flex-row items-start justify-start gap-[8.55rem] max-w-full mq900:gap-[2.125rem] mq1300:gap-[4.25rem] mq450:gap-[1.063rem]">
         <div className="ml-[-10.294rem] h-[91.213rem] flex flex-col items-start justify-start pt-[87.843rem] px-[0rem] pb-[0rem] box-border mq900:pt-[37.125rem] mq900:box-border mq1300:pt-[57.125rem] mq1300:box-border">
           <Image
+          width={1.619}
+          height={1.619}
             className="w-[1.619rem] flex-1 relative max-h-full overflow-hidden shrink-0 [debug_commit:69da668]"
             alt=""
             src="/widgets.svg"
@@ -47,6 +49,8 @@ const Features: NextPage<FeaturesType> = ({ className = "" }) => {
                     <div className="w-[29.188rem] h-[24.125rem] relative rounded-xl bg-salmon-100 hidden max-w-full" />
                     <div className="w-[20.313rem] flex flex-col items-start justify-start gap-[1.687rem] max-w-full">
                       <Image
+                      width={5}
+                      height={5}
                         className="w-[5rem] h-[5rem] relative z-[4]"
                         loading="lazy"
                         alt=""
@@ -73,6 +77,8 @@ const Features: NextPage<FeaturesType> = ({ className = "" }) => {
                   <div className="w-[15.125rem] h-[12.5rem] relative rounded-xl bg-salmon-100 hidden" />
                   <div className="flex flex-row items-start justify-start py-[0rem] px-[0.125rem]">
                     <Image
+                    width={2.594}
+                    height={2.594}
                       className="h-[2.594rem] w-[2.594rem] relative z-[4]"
                       alt=""
                       src="/group-6929.svg"
@@ -96,6 +102,8 @@ const Features: NextPage<FeaturesType> = ({ className = "" }) => {
                   <div className="w-[15.125rem] h-[12.5rem] relative rounded-xl bg-salmon-100 hidden" />
                   <div className="flex flex-row items-start justify-start py-[0rem] px-[0.125rem]">
                     <Image
+                      width={2.594}
+                      height={2.594}
                       className="h-[2.594rem] w-[2.594rem] relative z-[4]"
                       alt=""
                       src="/group-6929.svg"
@@ -153,6 +161,8 @@ const Features: NextPage<FeaturesType> = ({ className = "" }) => {
                   <GroupComponent />
                   <div className="flex flex-col items-start justify-start pt-[7.625rem] px-[0rem] pb-[0rem]">
                     <Image
+                      width={3.125}
+                      height={3.125}
                       className="w-[3.125rem] h-[3.125rem] relative z-[1]"
                       alt=""
                       src="/group-6942.svg"
@@ -173,6 +183,9 @@ const Features: NextPage<FeaturesType> = ({ className = "" }) => {
                   <GroupComponent1 />
                   <div className="flex flex-col items-start justify-start pt-[7.625rem] px-[0rem] pb-[0rem]">
                     <Image
+                      width={3.125}
+                      height={3.125}
+
                       className="w-[3.125rem] h-[3.125rem] relative z-[1]"
                       alt=""
                       src="/group-6942.svg"

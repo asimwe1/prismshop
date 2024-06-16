@@ -15,6 +15,8 @@ const Footer: NextPage<FooterType> = ({ className = "" }) => {
         <div className="w-[27.625rem] flex flex-col items-start justify-start py-[0rem] pr-[2rem] pl-[0rem] box-border max-w-full text-[2.188rem] font-montserrat">
           <div className="w-[19.438rem] flex flex-row items-start justify-start gap-[0.25rem]">
             <Image
+            width={45}
+            height={45}
               className="h-[4.813rem] w-[4.75rem] relative object-cover z-[1]"
               loading="lazy"
               alt=""
@@ -93,6 +95,8 @@ const Footer: NextPage<FooterType> = ({ className = "" }) => {
               <div className="flex-1 flex flex-row items-end justify-between gap-[1.25rem]">
                 <div className="flex flex-col items-start justify-end pt-[0rem] px-[0rem] pb-[0.25rem]">
                   <Image
+                  width={50}
+                  height={50}
                     className="w-[3.125rem] h-[3.125rem] relative overflow-hidden shrink-0 z-[1]"
                     loading="lazy"
                     alt=""
@@ -100,6 +104,8 @@ const Footer: NextPage<FooterType> = ({ className = "" }) => {
                   />
                 </div>
                 <Image
+                width={60}
+                height={50}
                   className="h-[3.75rem] w-[3.281rem] relative overflow-hidden shrink-0 z-[1]"
                   loading="lazy"
                   alt=""
@@ -107,6 +113,8 @@ const Footer: NextPage<FooterType> = ({ className = "" }) => {
                 />
                 <div className="flex flex-col items-start justify-end pt-[0rem] px-[0rem] pb-[0.25rem]">
                   <Image
+                  width={50}
+                  height={50}
                     className="w-[3.125rem] h-[3.125rem] relative overflow-hidden shrink-0 z-[1]"
                     loading="lazy"
                     alt=""

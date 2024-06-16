@@ -41,6 +41,8 @@ const MacBookPro16: NextPage = () => {
             </div>
             <button className="cursor-pointer [border:none] py-[1.25rem] px-[3.937rem] bg-button-blue rounded-31xl overflow-hidden flex flex-row items-end justify-start gap-[0.556rem] z-[1] hover:bg-steelblue-200">
               <Image
+              width={20}
+              height={20}
                 className="h-[1.094rem] w-[1.094rem] relative"
                 alt=""
                 src="/search-icon.svg"
@@ -57,6 +59,8 @@ const MacBookPro16: NextPage = () => {
       <FrameComponent2 />
       <FrameComponent1 />
       <Image
+      width={25}
+      height={25}
         className="w-full h-[48.875rem] absolute !m-[0] right-[0rem] bottom-[114.313rem] left-[0rem] max-w-full overflow-hidden shrink-0 object-cover"
         alt=""
         src="/pexelscottonbro3944405-1.png"

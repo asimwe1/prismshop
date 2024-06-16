@@ -19,6 +19,8 @@ const GroupComponent1: NextPage<GroupComponent1Type> = ({ className = "" }) => {
         </div>
         <div className="self-stretch flex flex-row items-start justify-start py-[0rem] pr-[0.562rem] pl-[0.5rem]">
           <Image
+          height={50}
+          width={50}
             className="h-[8.313rem] flex-1 relative max-w-full overflow-hidden object-cover z-[1]"
             alt=""
             src="/mask-group.png"
@@ -31,6 +33,8 @@ const GroupComponent1: NextPage<GroupComponent1Type> = ({ className = "" }) => {
             </b>
             <div className="flex flex-col items-start justify-start pt-[0.312rem] px-[0rem] pb-[0rem]">
               <Image
+              width={50}
+              height={50}
                 className="w-[1.5rem] h-[1.5rem] relative overflow-hidden shrink-0 z-[1]"
                 alt=""
                 src="/add-shopping-cart.svg"

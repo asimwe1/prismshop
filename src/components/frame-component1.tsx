@@ -19,6 +19,8 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
                 <div className="w-[26.75rem] h-[19.563rem] relative shadow-[0px_0px_70px_rgba(69,_71,_160,_0.35)] rounded-3xs bg-white hidden max-w-full" />
                 <div className="self-stretch flex flex-row items-start justify-center py-[0rem] pr-[0rem] pl-[0.375rem]">
                   <Image
+                  width={30}
+                  height={25}
                     className="h-[4.375rem] w-[4.375rem] relative rounded-[50%] object-cover z-[2]"
                     loading="lazy"
                     alt=""
@@ -40,27 +42,37 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
                     <div className="flex flex-col items-start justify-start gap-[0.506rem]">
                       <div className="flex flex-row items-start justify-start gap-[0.4rem]">
                         <Image
+                        width={30}
+                        height={25}
                           className="h-[0.931rem] w-[0.931rem] relative rounded-12xs min-h-[0.938rem] z-[2]"
                           loading="lazy"
                           alt=""
                           src="/star-3.svg"
                         />
                         <Image
+                        width={25}
+                        height={25}
                           className="h-[0.931rem] w-[0.931rem] relative rounded-12xs min-h-[0.938rem] z-[2]"
                           alt=""
                           src="/star-5.svg"
                         />
                         <Image
+                        width={25}
+                        height={25}
                           className="h-[0.931rem] w-[0.931rem] relative rounded-12xs min-h-[0.938rem] z-[2]"
                           alt=""
                           src="/star-6.svg"
                         />
                         <Image
+                        width={25}
+                        height={25}
                           className="h-[0.931rem] w-[0.931rem] relative rounded-12xs min-h-[0.938rem] z-[2]"
                           alt=""
                           src="/star-7.svg"
                         />
                         <Image
+                        width={30}
+                        height={25}
                           className="h-[0.931rem] w-[0.931rem] relative rounded-12xs min-h-[0.938rem] z-[2]"
                           alt=""
                           src="/star-4.svg"
@@ -86,6 +98,8 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
               <div className="flex flex-col items-start justify-start gap-[0.193rem] text-[0.875rem]">
                 <div className="flex flex-row items-start justify-start py-[0rem] pr-[2.062rem] pl-[2rem]">
                   <Image
+                  width={25}
+                  height={25}
                     className="h-[0.931rem] w-[5.406rem] relative z-[1]"
                     loading="lazy"
                     alt=""
@@ -102,6 +116,8 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
         <div className="w-[22.625rem] flex flex-col items-start justify-start py-[0rem] pr-[1rem] pl-[0rem] box-border gap-[1.5rem] max-w-full text-[1rem] text-button-blue">
           <div className="flex flex-row items-start justify-start relative">
             <Image
+            width={50}
+            height={50}
               className="h-[3.125rem] w-[3.125rem] absolute !m-[0] top-[-1.562rem] right-[-1.5rem] z-[2]"
               loading="lazy"
               alt=""
@@ -117,6 +133,8 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
               <div className="w-[9.25rem] flex flex-col items-start justify-start gap-[1.062rem]">
                 <div className="self-stretch flex flex-row items-start justify-start gap-[0.793rem]">
                   <Image
+                  width={45}
+                  height={45}
                     className="h-[2.5rem] w-[2.644rem] relative rounded-8xs object-cover z-[1]"
                     loading="lazy"
                     alt=""
@@ -135,6 +153,8 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
                 </div>
                 <div className="self-stretch flex flex-row items-start justify-start gap-[0.793rem]">
                   <Image
+                  width={45}
+                  height={45}
                     className="h-[2.5rem] w-[2.644rem] relative rounded-8xs object-cover z-[1]"
                     alt=""
                     src="/image-16@2x.png"
@@ -153,6 +173,8 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
               </div>
               <div className="w-[9.25rem] flex flex-row items-start justify-start gap-[0.793rem]">
                 <Image
+                width={45}
+                height={45}
                   className="h-[2.5rem] w-[2.644rem] relative rounded-8xs object-cover z-[1]"
                   alt=""
                   src="/image-16@2x.png"
@@ -174,6 +196,8 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
             <div className="w-[21.625rem] h-[22.938rem] relative shadow-[0px_0px_70px_rgba(69,_71,_160,_0.24)] rounded-3xs bg-white hidden max-w-full" />
             <div className="self-stretch flex flex-row items-start justify-center py-[0rem] pr-[0rem] pl-[0.062rem]">
               <Image
+              width={55}
+              height={55}
                 className="h-[4.375rem] w-[4.375rem] relative rounded-[50%] object-cover z-[1]"
                 loading="lazy"
                 alt=""
@@ -194,21 +218,29 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
                 <div className="flex flex-col items-start justify-start gap-[0.881rem]">
                   <div className="flex flex-row items-start justify-start gap-[0.4rem]">
                     <Image
+                    width={10}
+                    height={10}
                       className="h-[0.931rem] w-[0.931rem] relative rounded-12xs min-h-[0.938rem] z-[1]"
                       alt=""
                       src="/star-3.svg"
                     />
                     <Image
+                    width={10}
+                    height={10}
                       className="h-[0.931rem] w-[0.931rem] relative rounded-12xs min-h-[0.938rem] z-[1]"
                       alt=""
                       src="/star-5.svg"
                     />
                     <Image
+                    width={10}
+                    height={10}
                       className="h-[0.931rem] w-[0.931rem] relative rounded-12xs min-h-[0.938rem] z-[1]"
                       alt=""
                       src="/star-6.svg"
                     />
                     <Image
+                    width={10}
+                    height={10}
                       className="h-[0.931rem] w-[0.931rem] relative rounded-12xs min-h-[0.938rem] z-[1]"
                       alt=""
                       src="/star-7.svg"

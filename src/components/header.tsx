@@ -12,7 +12,8 @@ const Header: NextPage<HeaderType> = ({ className = "" }) => {
     >
       <header className="w-[99.188rem] flex flex-row items-start justify-start py-[0rem] pr-[1.375rem] pl-[0rem] box-border gap-[0.25rem] max-w-full text-left text-[1.25rem] text-button-blue font-lato">
         <Image
-
+        width={30}
+        height={30}
           className="h-[4.813rem] w-[4.75rem] relative object-cover"
           loading="lazy"
           alt=""
@@ -33,6 +34,8 @@ const Header: NextPage<HeaderType> = ({ className = "" }) => {
         </div>
         <div className="flex flex-col items-start justify-start pt-[1.187rem] pb-[0rem] pr-[1.625rem] pl-[0rem]">
           <Image
+          width={30}
+          height={30}
             className="w-[1.5rem] h-[1.5rem] relative overflow-hidden shrink-0"
             alt=""
             src="/chevrondown.svg"
@@ -45,6 +48,8 @@ const Header: NextPage<HeaderType> = ({ className = "" }) => {
         </div>
         <div className="flex flex-col items-start justify-start pt-[1.187rem] pb-[0rem] pr-[1.625rem] pl-[0rem]">
           <Image
+          width={30}
+          height={30}
             className="w-[1.5rem] h-[1.5rem] relative overflow-hidden shrink-0"
             alt=""
             src="/chevrondown.svg"

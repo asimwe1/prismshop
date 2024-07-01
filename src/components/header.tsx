@@ -32,13 +32,13 @@ const Header: NextPage<HeaderType> = ({ className = "" }) => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-start justify-start pt-[1.187rem] pb-[0rem] pr-[1.625rem] pl-[0rem]">
+        <div className="flex flex-col items-start justify-start pt-[1.47rem] pb-[0rem] pr-[1.625rem] pl-[0rem]">
           <Image
           width={30}
           height={30}
-            className="w-[1.5rem] h-[1.5rem] relative overflow-hidden shrink-0"
+            className="w-[1rem] h-[1rem] relative overflow-hidden shrink-0"
             alt=""
-            src="/chevrondown.svg"
+            src="/down-chevron.svg"
           />
         </div>
         <div className="flex flex-col items-start justify-start pt-[1.187rem] px-[0rem] pb-[0rem]">
@@ -46,13 +46,13 @@ const Header: NextPage<HeaderType> = ({ className = "" }) => {
             services
           </a>
         </div>
-        <div className="flex flex-col items-start justify-start pt-[1.187rem] pb-[0rem] pr-[1.625rem] pl-[0rem]">
+        <div className="flex flex-col items-start justify-start pt-[1.47rem] pb-[0rem] pr-[1.625rem] pl-[0rem]">
           <Image
           width={30}
           height={30}
-            className="w-[1.5rem] h-[1.5rem] relative overflow-hidden shrink-0"
+            className="w-[1rem] h-[1rem] relative overflow-hidden shrink-0"
             alt=""
-            src="/chevrondown.svg"
+            src="/down-chevron.svg"
           />
         </div>
         <div className="w-[7.063rem] flex flex-col items-start justify-start pt-[1.187rem] pb-[0rem] pr-[1.25rem] pl-[0rem] box-border">

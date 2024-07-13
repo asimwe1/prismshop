@@ -10,6 +10,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'custom-image': "url('/prism/prism/background.png')",
+      },
       colors: {
         white: "#fff",
         blue: "#4547a0",

@@ -17,7 +17,7 @@ const Header: NextPage<HeaderType> = ({ className = "" }) => {
           className="h-[4.813rem] w-[4.75rem] relative object-cover"
           loading="lazy"
           alt=""
-          src="/group-6-962.png"
+          src="/logo.svg"
         />
         <div className="flex-1 flex flex-col items-start justify-start pt-[0.625rem] px-[0rem] pb-[0rem] box-border max-w-full text-[2.188rem] font-montserrat">
           <div className="self-stretch flex flex-row items-start justify-start gap-[1.812rem]">

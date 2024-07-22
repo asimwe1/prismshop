@@ -12,7 +12,7 @@ import Image from "next/image";
 
 const MacBookPro16: NextPage = () => {
   return (
-    <div className="w-full relative bg-white overflow-hidden flex flex-col items-end justify-start pt-[2.187rem] px-[0rem] pb-[15.875rem] box-border gap-[3rem] leading-[normal] tracking-[normal] text-left text-[3.125rem] text-ghostwhite-100 font-lato mq450:gap-[1.5rem]">
+    <div className="w-full relative bg-white overflow-hidden flex flex-col items-end justify-start pt-[2.187rem] px-[0rem] box-border gap-[3rem] leading-[normal] tracking-[normal] text-left text-[3.125rem] text-ghostwhite-100 font-lato mq450:gap-[1.5rem]">
       <section className="w-[104.125rem] flex flex-row items-start justify-start py-[0rem] pr-[0rem] pl-[1.25rem] box-border relative max-w-full">
         <Navigation />
         <Header />

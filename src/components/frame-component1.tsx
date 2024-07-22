@@ -24,7 +24,7 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
                     className="h-[4.375rem] w-[4.375rem] relative rounded-[50%] object-cover z-[2]"
                     loading="lazy"
                     alt=""
-                    src="/ellipse-13@2x.png"
+                    src="/Ellipse.svg"
                   />
                 </div>
                 <div className="self-stretch flex flex-col items-start justify-start gap-[0.125rem]">
@@ -47,35 +47,35 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
                           className="h-[0.931rem] w-[0.931rem] relative rounded-12xs min-h-[0.938rem] z-[2]"
                           loading="lazy"
                           alt=""
-                          src="/star-3.svg"
+                          src="/star.svg"
                         />
                         <Image
                         width={25}
                         height={25}
                           className="h-[0.931rem] w-[0.931rem] relative rounded-12xs min-h-[0.938rem] z-[2]"
                           alt=""
-                          src="/star-5.svg"
+                          src="/star.svg"
                         />
                         <Image
                         width={25}
                         height={25}
                           className="h-[0.931rem] w-[0.931rem] relative rounded-12xs min-h-[0.938rem] z-[2]"
                           alt=""
-                          src="/star-6.svg"
+                          src="/star.svg"
                         />
                         <Image
                         width={25}
                         height={25}
                           className="h-[0.931rem] w-[0.931rem] relative rounded-12xs min-h-[0.938rem] z-[2]"
                           alt=""
-                          src="/star-7.svg"
+                          src="/star.svg"
                         />
                         <Image
                         width={30}
                         height={25}
                           className="h-[0.931rem] w-[0.931rem] relative rounded-12xs min-h-[0.938rem] z-[2]"
                           alt=""
-                          src="/star-4.svg"
+                          src="/star.svg"
                         />
                       </div>
                       <div className="flex flex-row items-start justify-start py-[0rem] pr-[1.5rem] pl-[1.437rem]">
@@ -138,7 +138,7 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
                     className="h-[2.5rem] w-[2.644rem] relative rounded-8xs object-cover z-[1]"
                     loading="lazy"
                     alt=""
-                    src="/image-16@2x.png"
+                    src="/Ellipse.svg"
                   />
                   <div className="flex-1 flex flex-col items-start justify-start gap-[0.187rem]">
                     <b className="self-stretch relative leading-[1.063rem] font-semibold z-[1]">
@@ -157,7 +157,7 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
                   height={45}
                     className="h-[2.5rem] w-[2.644rem] relative rounded-8xs object-cover z-[1]"
                     alt=""
-                    src="/image-16@2x.png"
+                    src="/Ellipse.svg"
                   />
                   <div className="flex-1 flex flex-col items-start justify-start gap-[0.187rem]">
                     <b className="self-stretch relative leading-[1.063rem] font-semibold z-[1]">
@@ -177,7 +177,7 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
                 height={45}
                   className="h-[2.5rem] w-[2.644rem] relative rounded-8xs object-cover z-[1]"
                   alt=""
-                  src="/image-16@2x.png"
+                  src="/Ellipse.svg"
                 />
                 <div className="flex-1 flex flex-col items-start justify-start gap-[0.187rem]">
                   <b className="self-stretch relative leading-[1.063rem] font-semibold z-[1]">
@@ -201,7 +201,7 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
                 className="h-[4.375rem] w-[4.375rem] relative rounded-[50%] object-cover z-[1]"
                 loading="lazy"
                 alt=""
-                src="/ellipse-13@2x.png"
+                src="/Ellipse.svg"
               />
             </div>
             <div className="self-stretch flex flex-col items-start justify-start gap-[0.25rem]">
@@ -222,28 +222,28 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
                     height={10}
                       className="h-[0.931rem] w-[0.931rem] relative rounded-12xs min-h-[0.938rem] z-[1]"
                       alt=""
-                      src="/star-3.svg"
+                      src="/star.svg"
                     />
                     <Image
                     width={10}
                     height={10}
                       className="h-[0.931rem] w-[0.931rem] relative rounded-12xs min-h-[0.938rem] z-[1]"
                       alt=""
-                      src="/star-5.svg"
+                      src="/star.svg"
                     />
                     <Image
                     width={10}
                     height={10}
                       className="h-[0.931rem] w-[0.931rem] relative rounded-12xs min-h-[0.938rem] z-[1]"
                       alt=""
-                      src="/star-6.svg"
+                      src="/star.svg"
                     />
                     <Image
                     width={10}
                     height={10}
                       className="h-[0.931rem] w-[0.931rem] relative rounded-12xs min-h-[0.938rem] z-[1]"
                       alt=""
-                      src="/star-7.svg"
+                      src="/star.svg"
                     />
                   </div>
                   <div className="flex flex-row items-start justify-start py-[0rem] pr-[0.875rem] pl-[0.75rem]">

@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-// import Slide from "./slide";
+import Slide from "./slide";
 import GroupComponent1 from "./group-component1";
 import GroupComponent from "./group-component";
 import Image from "next/image";
@@ -127,7 +127,7 @@ const Features: NextPage<FeaturesType> = ({ className = "" }) => {
           <div className="rounded-8xs bg-ghostwhite-200 flex flex-row items-end justify-start pt-[2.312rem] pb-[7.062rem] pr-[3.312rem] pl-[4.062rem] box-border gap-[5rem] max-w-full text-[1.25rem] text-tomato mq900:gap-[2.5rem] mq900:pt-[1.25rem] mq900:pb-[2.938rem] mq900:pr-[1.625rem] mq900:pl-[2rem] mq900:box-border mq1300:pt-[1.5rem] mq1300:pb-[4.563rem] mq1300:box-border mq450:gap-[1.25rem] mq1650:flex-wrap">
             <div className="h-[63.5rem] w-[107.813rem] relative rounded-8xs bg-ghostwhite-200 hidden max-w-full" />
             <div className="w-[38.063rem] flex flex-col items-start justify-start py-[0rem] pr-[0.687rem] pl-[0rem] box-border gap-[8.25rem] max-w-full mq900:gap-[4.125rem] mq450:gap-[2.063rem]">
-              {/* <Slide accessories="Accessories" />
+              <Slide accessories="Accessories" />
               <Slide
                 accessories={`Beauty & Personal Care`}
                 propWidth="24.375rem"
@@ -135,7 +135,7 @@ const Features: NextPage<FeaturesType> = ({ className = "" }) => {
                 propMinWidth="unset"
                 propWidth1="13.875rem"
                 propTextDecoration="none"
-              /> */}
+              />
             </div>
             <div className="w-[32.75rem] flex flex-col items-start justify-start gap-[12.125rem] max-w-full text-[1rem] text-blue mq900:gap-[6.063rem] mq450:gap-[3rem]">
               <div className="self-stretch flex flex-row items-start justify-start gap-[4.625rem] mq900:flex-wrap mq900:gap-[2.313rem] mq450:gap-[1.125rem]">

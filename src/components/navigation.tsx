@@ -13,7 +13,7 @@ const Navigation: NextPage<NavigationType> = ({ className = "" }) => {
       <Image
       width={30}
       height={30}
-        className="absolute top-[0rem] left-[0rem] rounded-3xs w-[145rem] h-[59.5rem] object-cover"
+        className="absolute top-[0rem] left-[0rem] rounded-3xs w-[100rem] h-[59.5rem] object-cover"
         alt=""
         src="/shoppingbagsgoldenshoppingcart-232148667038-1@2x.svg"
       />

@@ -8,12 +8,12 @@ export type NavigationType = {
 const Navigation: NextPage<NavigationType> = ({ className = "" }) => {
   return (
     <div
-      className={`h-[86.313rem] w-[150.063rem] absolute !m-[0] bottom-[-75.375rem] left-[-20.5rem] ${className}`}
+      className={`h-[86.313rem] w-[150.063rem] absolute !m-[0] bottom-[-75.375rem] left-[-8.5rem] ${className}`}
     >
       <Image
       width={30}
       height={30}
-        className="absolute top-[0rem] left-[0rem] rounded-3xs w-[120rem] h-[59.5rem] object-cover"
+        className="absolute top-[0rem] left-[0rem] rounded-3xs w-[115rem] h-[59.5rem] object-cover"
         alt=""
         src="/shoppingbagsgoldenshoppingcart-232148667038-1@2x.svg"
       />

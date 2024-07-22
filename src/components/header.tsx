@@ -8,9 +8,9 @@ export type HeaderType = {
 const Header: NextPage<HeaderType> = ({ className = "" }) => {
   return (
     <div
-      className={`flex-1 flex flex-row items-start justify-start pt-[0rem] px-[0rem] pb-[12.125rem] box-border max-w-full ${className}`}
+      className={`flex-1 flex flex-row items-start justify-start pt-[0rem] px-[0rem] pb-[11rem] box-border max-w-full ${className}`}
     >
-      <header className="w-[99.188rem] flex flex-row items-start justify-start py-[0rem] pr-[1.375rem] pl-[0rem] box-border gap-[0.25rem] max-w-full text-left text-[1.25rem] text-button-blue font-lato">
+      <header className="w-[99.188rem] flex flex-row items-start justify-start py-[0rem] pr-[1rem] pl-[0rem] box-border gap-[0.25rem] max-w-full text-left text-[0.8rem] text-button-blue font-lato">
         <Image
         width={30}
         height={30}
@@ -19,42 +19,39 @@ const Header: NextPage<HeaderType> = ({ className = "" }) => {
           alt=""
           src="/logo.svg"
         />
-        <div className="flex-1 flex flex-col items-start justify-start pt-[0.625rem] px-[0rem] pb-[0rem] box-border max-w-full text-[2.188rem] font-montserrat">
+        <div className="flex-1 flex flex-col items-start justify-start pt-[0.625rem] px-[0rem] pb-[0rem] box-border max-w-full text-[1.5rem] font-montserrat">
           <div className="self-stretch flex flex-row items-start justify-start gap-[1.812rem]">
             <h1 className="m-0 h-[3.563rem] flex-1 relative text-inherit font-bold font-inherit inline-block whitespace-nowrap">
               <span>Prism</span>
               <span className="text-salmon-100">Shop</span>
             </h1>
-            <div className="flex flex-col items-start justify-start pt-[0.562rem] px-[0rem] pb-[0rem] text-[1.25rem] font-lato">
+            <div className="flex gap-1 items-start justify-start pt-[0.562rem] px-[0rem] pb-[0rem] text-[0.8rem] font-lato">
               <a className="[text-decoration:none] relative capitalize font-medium text-[inherit] inline-block min-w-[6rem]">
                 Categories
               </a>
+          <Image
+          width={30}
+          height={30}
+            className="w-[0.5rem] h-[0.5rem] relative overflow-hidden shrink-0 pt-[0.3rem] -mx-4 pr-10"
+            alt=""
+            src="/down-chevron.svg"
+          />
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-start justify-start pt-[1.187rem] pb-[0rem] pr-[1.625rem] pl-[0rem]">
+       
+        <div className="flex gap-1 items-start justify-start pt-[1.2rem] px-[0rem] pb-[0rem] text-[0.8rem] font-lato">
+              <a className="[text-decoration:none] relative capitalize font-medium text-[inherit] inline-block min-w-[6rem]">
+                Services
+              </a>
           <Image
           width={30}
           height={30}
-            className="w-[1.5rem] h-[1.5rem] relative overflow-hidden shrink-0"
+            className="w-[0.5rem] h-[0.5rem] relative overflow-hidden shrink-0 pt-[0.3rem] -mx-4 pr-10"
             alt=""
-            src="/chevrondown.svg"
+            src="/down-chevron.svg"
           />
-        </div>
-        <div className="flex flex-col items-start justify-start pt-[1.187rem] px-[0rem] pb-[0rem]">
-          <a className="[text-decoration:none] relative capitalize font-medium text-[inherit] inline-block min-w-[4.563rem]">
-            services
-          </a>
-        </div>
-        <div className="flex flex-col items-start justify-start pt-[1.187rem] pb-[0rem] pr-[1.625rem] pl-[0rem]">
-          <Image
-          width={30}
-          height={30}
-            className="w-[1.5rem] h-[1.5rem] relative overflow-hidden shrink-0"
-            alt=""
-            src="/chevrondown.svg"
-          />
-        </div>
+            </div>
         <div className="w-[7.063rem] flex flex-col items-start justify-start pt-[1.187rem] pb-[0rem] pr-[1.25rem] pl-[0rem] box-border">
           <a className="[text-decoration:none] relative capitalize font-medium text-[inherit] inline-block min-w-[5.563rem]">
             industries

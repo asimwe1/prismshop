@@ -8,7 +8,7 @@ export type NavigationType = {
 const Navigation: NextPage<NavigationType> = ({ className = "" }) => {
   return (
     <div
-      className={`h-[86.313rem] w-[150.063rem] absolute !m-[0] bottom-[-75.375rem] left-[-10.5rem] ${className}`}
+      className={`h-[86.313rem] w-[150.063rem] absolute !m-[0] bottom-[-75.375rem] left-[-15.5rem] ${className}`}
     >
       <Image
       width={30}
